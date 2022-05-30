@@ -1,6 +1,6 @@
 const nombre = prompt ("Ingrese nombre y apellido del alumno");
 const clases = 20;
-let asistencias = parseFloat(prompt("Ingrese la cantidad de Asistencias"));
+let asistencias = parseInt(prompt("Ingrese la cantidad de Asistencias (no mayor a 20)."));
 
 let promedio = (asistencias/clases)*100;
 
